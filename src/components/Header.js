@@ -71,6 +71,7 @@ export const Header = (props) => {
 				.then((result) => {
 					console.log(result.user);
 					setUser(result.user);
+					
 				})
 				.catch((error) => {
 					alert(error.message);
